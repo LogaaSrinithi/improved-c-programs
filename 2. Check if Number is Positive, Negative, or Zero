@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int a = -12;
+
+    if (a < 0)
+        printf("Negative integer\n");
+    else if (a > 0)
+        printf("Positive integer\n");
+    else
+        printf("Zero\n");
+
+    return 0;
+}
